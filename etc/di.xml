@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="\Magento\Catalog\Model\Product">
+        <plugin name="Keyreal_Like2buy" type="Keyreal\Like2buy\Plugin\Product" sortOrder="10" disabled="false" />
+    </type>
+    <type name="Facebook\Facebook">
+        <arguments>
+            <argument name="config" xsi:type="array">
+                <item name="app_id" xsi:type="string"></item>
+                <item name="app_secret" xsi:type="string"></item>
+                <item name="default_access_token" xsi:type="string"></item>
+                <item name="default_graph_version" xsi:type="string">v2.5</item>
+            </argument>
+        </arguments>
+    </type>
+</config>

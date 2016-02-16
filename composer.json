@@ -1,0 +1,21 @@
+{
+    "name": "keyreal/like2buy",
+    "description": "Like fanpage to get discount for this product",
+    "type": "magento2-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nadobnykh",
+            "email": "k.nadobnykh@mzentrale.de"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Keyreal\\Like2buy\\": ""
+        }
+    },
+    "require": {}
+}

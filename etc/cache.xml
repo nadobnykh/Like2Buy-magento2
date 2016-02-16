@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Cache/etc/cache.xsd">
+    <type name="data_import" translate="label,description" instance="Keyreal\Like2buy\Model\Cache\TypeImport">
+        <label>Import data cache</label>
+        <description>Temporary cache for data get from web service</description>
+    </type>
+</config>

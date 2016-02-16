@@ -1,0 +1,7 @@
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceBlock name="product.info.options.wrapper.bottom">
+        	<block class="Keyreal\Like2buy\Block\Like" name="like2buy.block.like" htmlClass="like-block" template="like.phtml" after="product.info.addtocart.additional" />
+        </referenceBlock>
+    </body>
+</page>
